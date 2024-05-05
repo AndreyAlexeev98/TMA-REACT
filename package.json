@@ -7,6 +7,7 @@
   "scripts": {
     "deploy": "gh-pages -d dist",
     "dev": "vite",
+    "tunnel": "lt --port 5173",
     "build": "tsc --noEmit && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
@@ -37,6 +38,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^12.0.0",
     "gh-pages": "^6.1.1",
+    "localtunnel": "^2.0.2",
     "typescript": "^5.2.2",
     "vite": "^5.1.5",
     "vite-tsconfig-paths": "^4.3.2"
