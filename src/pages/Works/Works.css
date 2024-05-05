@@ -1,0 +1,31 @@
+/* Accordion.module.css */
+.container {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #0088cc;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.description {
+  padding: 10px;
+  background-color: #f4f5f7;
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+.item.active .description {
+  max-height: 200px; /* Установите желаемую максимальную высоту для плавного появления */
+}

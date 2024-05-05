@@ -1,0 +1,36 @@
+/* Accordion.module.css */
+.container {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  .item {
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: #0088cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .description {
+    padding: 10px;
+    background-color: #f4f5f7;
+    border: 1px solid #e4e4e4;
+    color: darkslategrey;
+  }
+
+  .link {
+    text-decoration: none;
+    color: var(--tg-theme-link-color);
+    transition: opacity .3s;
+    &:hover {
+        opacity: .7;
+    }
+  }
